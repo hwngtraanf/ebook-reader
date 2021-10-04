@@ -1,0 +1,45 @@
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+
+.tool-list {
+	display: flex;
+	flex-flow: row nowrap;
+	list-style: none;
+	padding: 0;
+	margin: 1rem;
+	overflow: hidden;
+}
+
+.tool--btn {
+	display: block;
+	border: none;
+	padding: .5rem;
+	font-size: 0.8rem;
+}
+
+#highlight {
+	width: 2.2rem;
+	height: 1.8rem;
+	border: none;
+}
+
+#font {
+	width: 5rem;
+	font-size: 14px;
+}
+
+#font-size {
+	font-size: 14px;
+}
+
+#output {
+	height: 100%;
+	min-height: 300px;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	margin: 1rem;
+	padding: 1rem;
+}
